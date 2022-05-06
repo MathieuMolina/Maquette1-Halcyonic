@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Yanone Kaffeesatz', sans-serif;
+    overflow-x: hidden;
 }
 
 
@@ -39,7 +40,7 @@ h1{
 #section1{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     width: 100%;
     height: 15em;
 }
@@ -48,49 +49,21 @@ img{
     border: 5px white solid;
 }
 
-#section2{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 20em;
-    background-image: url(./BG/bg04.jpg);
-}
 
-#section2 div{
-    height: 15em;
-    width: 250px;
-}
-
-#section2 img{
-    width: 90%;
-    margin: 0 20px;
-}
-
-#section2 h3, p{
-    color: white;
-    text-align: left;
-    margin: 0 20px;
-}
-
-#section3{
-    width: 100%;
-    height: 20em;
-}
-
-footer{
-    width: 100%;
-    height: 15em;
-    background-image: url(./BG/bg03.jpg);
-}
 
 
 /* Section 1 */
 
 .textPresentation{
-    height: 100px;
+    height: 150px;
     width: 50%;
     font-size: 20px;
     color: white;
+    padding-left: 100px;
+}
+
+.imgIntro{
+    padding-right: 100px;
 }
 
 .myButton {
@@ -115,4 +88,93 @@ footer{
 .myButton:active {
 	position:relative;
 	top:1px;
+}
+
+
+
+/* SECTION 2 */
+
+#section2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20em;
+    background-image: url(./BG/bg04.jpg);
+}
+
+#section2 div{
+    margin-right: 120px;
+    height: 15em;
+    width: 250px;
+}
+
+#section2 img{
+    width: 90%;
+    margin: 0 20px;
+}
+
+#section2 h3, p{
+    color: white;
+    text-align: left;
+    margin: 0 20px;
+}
+
+/* SECTION 3 */
+
+#section3{
+    background-image: url(./BG/bg04.png);
+    width: 100%;
+    height: 35em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#section3 p{
+    color: black;
+}
+
+.cadre{
+    margin-right: 50px;
+    background-color: white;
+    height: 500px;
+    width: 300px;
+    box-shadow: 4px 6px 6px rgb(139, 137, 137);
+}
+
+.cadre h4{
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+.sub{
+    opacity: 0.6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    width: 100%;
+    height: 15em;
+    background-image: url(./BG/bg03.jpg);
 }
